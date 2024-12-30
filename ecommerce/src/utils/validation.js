@@ -2,9 +2,9 @@ const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
 const phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
-const creditCardRegex = /^[0-9]{16}$/;
+// const creditCardRegex = /^[0-9]{16}$/;
 
-const zipCodeRegex = /^\d{5}(-\d{4})?$/;
+// const zipCodeRegex = /^\d{5}(-\d{4})?$/;
 
 const expiryRegex = /^(0[1-9]|1[0-2])\/([0-9]{2})$/;
 
