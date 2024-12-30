@@ -6,16 +6,16 @@ import { Card } from "../common/Card";
 import WishlistButton from "../common/WishListButton";
 
 export const ProductCard = ({ product }) => {
-  const { isInWishlist, addToWishlist, removeFromWishlist } = useWishlist();
-  const isWishlisted = isInWishlist(product.id);
+  // const { isInWishlist, addToWishlist, removeFromWishlist } = useWishlist();
+  // const isWishlisted = isInWishlist(product.id);
 
-  const toggleWishlist = () => {
-    if (isWishlisted) {
-      removeFromWishlist(product.id);
-    } else {
-      addToWishlist(product);
-    }
-  };
+  // const toggleWishlist = () => {
+  //   if (isWishlisted) {
+  //     removeFromWishlist(product.id);
+  //   } else {
+  //     addToWishlist(product);
+  //   }
+  // };
   return (
     <Card className="group relative flex flex-col h-full">
       <div className="relative">
