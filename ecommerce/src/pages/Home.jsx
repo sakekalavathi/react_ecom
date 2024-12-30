@@ -45,22 +45,22 @@ const Home = () => {
       document.body.appendChild(particle);
 
       // Animate particle
-      const animation = particle.animate(
-        [
-          { transform: "translate(0, 0)" },
-          {
-            transform: `translate(${Math.random() * 200 - 100}px, ${
-              Math.random() * 200 - 100
-            }px)`,
-          },
-        ],
-        {
-          duration: Math.random() * 3000 + 2000,
-          iterations: Infinity,
-          direction: "alternate",
-          easing: "ease-in-out",
-        }
-      );
+      // const animation = particle.animate(
+      //   [
+      //     { transform: "translate(0, 0)" },
+      //     {
+      //       transform: `translate(${Math.random() * 200 - 100}px, ${
+      //         Math.random() * 200 - 100
+      //       }px)`,
+      //     },
+      //   ],
+      //   {
+      //     duration: Math.random() * 3000 + 2000,
+      //     iterations: Infinity,
+      //     direction: "alternate",
+      //     easing: "ease-in-out",
+      //   }
+      // );
 
       // Remove particle after some time
       setTimeout(() => {
